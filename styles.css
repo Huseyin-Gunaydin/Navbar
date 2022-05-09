@@ -1,60 +1,49 @@
 ul {
-  background: gray;
   list-style: none;
+  padding: 0;
   margin: 0;
-  padding-left: 0;
+  position: absolute;
+  text-align: center;
 }
-li {
-  color: gray;
-  background: gray;
-  display: block;
+ul li {
   float: left;
-  padding: 10px 15px 10px 15px;
-  position: relative;
-  text-decoration: none;
-  transition: 0.7s;
+  margin-top: 15px;
 }
-li a {
+ul li a {
   color: black;
+  width: 130px;
+  display: block;
   text-decoration: none;
+  padding: 10px;
+  margin-right: 2px;
+  border: solid 0.02px rgb(156, 153, 153);
+  background: rgb(165, 163, 163);
 }
-li:hover {
-  background: #c8c4c4;
+a:hover {
   color: black;
-  corsur: pointer;
+  background: rgb(241, 235, 235);
 }
 ul li ul {
-  background: #000000;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 100px;
-  position: absolute;
-  transition: all 0.7s ease;
-  margin-top: 5px;
-  left: 0px;
+  background: #ffffff;
+}
+ul li ul li {
+  float: none;
+  margin: 0;
+}
+ul li ul {
   display: none;
 }
-
-ul li ul li {
-  clear: both;
-  width: 100%;
+ul li:hover > ul {
+  display: block;
 }
 
 ul li ul li ul {
-  background: #000000;
-  visibility: hidden;
-  opacity: 0;
-  min-width: 100px;
   position: absolute;
-  transition: all 0.7s ease;
-  margin-top: 0px;
-  left: 120px;
+  margin-top: -39px;
+  left: 150.5px;
   display: none;
 }
 
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
+ul li ul li:hover ul {
   display: block;
 }
