@@ -34,12 +34,6 @@ ul li ul {
   left: 0px;
   display: none;
 }
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
 
 ul li ul li {
   clear: both;
@@ -57,6 +51,7 @@ ul li ul li ul {
   left: 120px;
   display: none;
 }
+
 ul li:hover > ul,
 ul li ul:hover {
   visibility: visible;
