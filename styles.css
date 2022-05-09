@@ -23,9 +23,7 @@ a:hover {
   color: black;
   background: rgb(241, 235, 235);
 }
-ul li ul {
-  background: #ffffff;
-}
+
 ul li ul li {
   float: none;
   margin: 0;
