@@ -11,13 +11,14 @@ ul li {
 }
 ul li a {
   color: black;
-  width: 130px;
+  width: 112px;
   display: inline-block;
   text-decoration: none;
   padding: 10px;
   margin-right: 2px;
   border: solid 0.02px rgb(156, 153, 153);
   background: rgb(165, 163, 163);
+  border-radius: 5px;
 }
 a:hover {
   color: black;
@@ -35,7 +36,7 @@ ul li:hover > ul {
 }
 ul li ul li ul {
   margin-top: -39px;
-  left: 150.5px;
+  left: 132.5px;
   display: none;
 }
 .navbar {
