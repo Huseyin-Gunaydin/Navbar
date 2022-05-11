@@ -38,3 +38,19 @@ ul li ul li ul {
   left: 150.5px;
   display: none;
 }
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.text1 {
+  color: brown;
+  margin-top: 60px;
+}
+.text2 h1 {
+  color: #fff;
+  background-color: blueviolet;
+  position: sticky;
+  top: 60px;
+}
