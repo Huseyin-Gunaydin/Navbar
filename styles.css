@@ -1,3 +1,9 @@
+body {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 0px;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -10,6 +16,7 @@ ul li {
   margin-top: 15px;
 }
 ul li a {
+  box-sizing: border-box;
   color: black;
   width: 112px;
   display: inline-block;
@@ -26,6 +33,7 @@ a:hover {
 }
 ul li ul li {
   float: none;
+  box-sizing: border-box;
   margin: 0;
 }
 ul li ul {
